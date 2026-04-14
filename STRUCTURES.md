@@ -1,5 +1,5 @@
-##### STRUCTURE-Base.md - markdown
-# STRUCTURE-Base
+##### STRUCTURES.md - markdown
+# STRUCTURE
 >1. Squelette de base du dépôt `"AndroidAPN"`
 -  Structures extensibles :
 
