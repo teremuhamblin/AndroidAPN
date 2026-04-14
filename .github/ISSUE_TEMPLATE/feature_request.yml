@@ -1,0 +1,17 @@
+name: Feature request
+description: Proposer une nouvelle fonctionnalité
+labels: [enhancement]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Quel problème cette fonctionnalité résout-elle ?
+      placeholder: "En tant que ..., je veux ..., afin de ..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+      description: Décris la solution envisagée.
