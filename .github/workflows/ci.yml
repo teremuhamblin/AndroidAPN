@@ -27,5 +27,5 @@ jobs:
           pip install -U pip
           pip install -r requirements.txt
 
-      - name: Generate APN DB
-        run: python scripts/generate_apn_db.py
+      - name: Install dependencies
+        run: pip install -r requirements.txt
