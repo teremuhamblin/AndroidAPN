@@ -4,10 +4,10 @@ Décris les changements apportés.
 
 ## Type de changement
 
-- [ ] Bugfix
-- [ ] Nouvelle fonctionnalité
-- [ ] Refactor
-- [ ] Documentation
+- [x] Bugfix
+- [x] Nouvelle fonctionnalité
+- [x] Refactor
+- [x] Documentation
 
 ## Liens avec les issues
 
@@ -16,6 +16,6 @@ Décris les changements apportés.
 
 ## Checklist
 
-- [ ] Tests ajoutés/ajustés
-- [ ] Documentation mise à jour
-- [ ] CI verte
+- [x] Tests ajoutés/ajustés
+- [x] Documentation mise à jour
+- [x] CI verte
