@@ -1,0 +1,21 @@
+name: Bug report
+description: Signaler un bug dans AndroidAPN
+labels: [bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Décris le bug observé.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes de reproduction
+      description: Étapes pour reproduire le problème.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Commit ou tag utilisé.

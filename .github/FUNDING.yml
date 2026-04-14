@@ -1,0 +1,13 @@
+# FUNDING.yml pour AndroidAPN — liens officiels Android
+
+# Pas de GitHub Sponsors officiel pour Android (Google), donc vide
+github: []
+
+# Plateformes de soutien open-source (Google n'en utilise pas pour Android)
+open_collective: []
+
+# Lien(s) officiels Android
+custom:
+  - "https://source.android.com"            # Site officiel AOSP
+  - "https://developer.android.com"         # Documentation officielle Android
+  - "https://android.googlesource.com"      # Dépôt officiel du code source Android

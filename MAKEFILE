@@ -1,0 +1,2 @@
+validate-fr:
+	python3 scripts/validate_apn_fr.py
