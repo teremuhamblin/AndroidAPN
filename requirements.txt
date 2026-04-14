@@ -1,40 +1,62 @@
-# Dépendances du projet AndroidAPN
-# Ajoute ici les librairies nécessaires à la génération et validation des APN
+# ============================================================
+#  AndroidAPN - Dépendances du projet
+#  Runtime + Développement + Tests + Documentation
+# ============================================================
+
+# ------------------------------------------------------------
+# Runtime (nécessaires au fonctionnement du projet)
+# ------------------------------------------------------------
 
 # Parsing et manipulation de données
 pandas==2.2.1
 pyyaml==6.0.1
 
-# Logging avancé (optionnel mais utile)
+# Logging avancé
 rich==13.7.0
 
-# Validation de schémas (si tu veux valider les APN)
+# Validation de schémas APN
 jsonschema==4.21.1
 
-# CLI améliorée (si tu veux une interface plus propre)
+# CLI améliorée
 click==8.1.7
 
-# Exemple de dépendances génériques
-# requests==2.28.0
-# numpy==1.24.0
 
-# Parsing et manipulation de données
-pandas==2.2.1
-pyyaml==6.0.1
+# ------------------------------------------------------------
+# Développement (qualité, linting, formatage)
+# ------------------------------------------------------------
 
-# Testing
+# Linting Python
+flake8==7.0.0
+flake8-bugbear==24.2.6
+
+# Formatage automatique
+black==24.3.0
+
+# Typage statique
+mypy==1.9.0
+
+
+# ------------------------------------------------------------
+# Tests (unitaires, couverture)
+# ------------------------------------------------------------
+
 pytest==7.4.4
+pytest-cov==4.1.0
 
-# Logging avancé (optionnel mais utile)
-rich==13.7.0
 
-# Validation de schémas (si tu veux valider les APN)
-jsonschema==4.21.1
+# ------------------------------------------------------------
+# Documentation (Sphinx + thèmes)
+# ------------------------------------------------------------
 
-# CLI améliorée (si tu veux une interface plus propre)
-click==8.1.7
+sphinx==7.2.6
+sphinx-rtd-theme==2.0.0
+myst-parser==2.0.0   # support Markdown dans Sphinx
 
-# Exemple de dépendances génériques
+
+# ------------------------------------------------------------
+# Exemples de dépendances génériques (désactivées)
+# ------------------------------------------------------------
+
 # requests==2.28.0
 # numpy==1.24.0
 
