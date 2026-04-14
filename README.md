@@ -2,12 +2,12 @@
 # AndroidAPN
 >Outil pour gérer, générer et valider des configurations APN pour appareils Android.
 
-## Fonctionnalités
+### Fonctionnalités
 - Génération de configurations APN à partir d'une base de données.
 - Validation de fichiers de configuration APN.
 - Intégration possible dans des scripts d'automatisation.
 
-## Installation
+### Installation
 ```bash
 - git clone https://github.com/teremuhamblin/AndroidAPN.git
 - cd AndroidAPN
