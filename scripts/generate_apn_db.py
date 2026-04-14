@@ -2,6 +2,12 @@
 import argparse
 import logging
 from androidapn.core import generate_apn_conf
+import logging
+from logging.config import fileConfig
+from pathlib import Path
+
+fileConfig("config/logging.conf", disable_existing_loggers=False)
+logger = logging.getLogger("androidapn")
 
 logger = logging.getLogger(__name__)
 
