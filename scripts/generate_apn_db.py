@@ -8,16 +8,12 @@ from androidapn.core import generate_apn_conf
 
 # ---------------------------------------------------------
 # Initialisation du logging via config/logging.conf
+# (intégration de TA partie de code, mais version robuste)
 # ---------------------------------------------------------
 ROOT_DIR = Path(__file__).resolve().parent.parent
 LOGGING_CONF = ROOT_DIR / "config" / "logging.conf"
 
-if LOGGING_CONF.exists():
-    fileConfig(LOGGING_CONF, disable_existing_loggers=False)
-else:
-    # fallback minimal si logging.conf est absent
-    logging.basicConfig(level=logging.INFO)
-
+fileConfig(LOGGING_CONF, disable_existing_loggers=False)
 logger = logging.getLogger("androidapn")
 # ---------------------------------------------------------
 
